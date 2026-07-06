@@ -29,7 +29,7 @@ namespace SearchService.Datas
             var items = await httpClient.GetItemsForSearchDb();
 
             Console.WriteLine($"Items count in SearchDb: {count}");
-            if(count> 0)
+            if(items.Count > 0)
             {
                 await DB.SaveAsync(items);
             }
