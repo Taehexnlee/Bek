@@ -482,3 +482,9 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# IdentityServer auto-generated signing keys
+src/IdentityService/keys/
+
+# IdentityServer diagnostic logs
+src/IdentityService/diagnostics/
